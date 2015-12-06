@@ -22,3 +22,9 @@ En fait, il est aussi possible de compiler en une seule fois, en utilisant
 
 * Rajouter une règle dans le Makefile, qui tient compte des dépendances, pour compiler un exécutable `main_single` en une seule invocation de `gcc`, et compiler.
 * Modifier un des fichiers `.c` (rajouter une ligne vide par exemple) et recompiler. Qu'observe-t-on comme avantage dans la compilation des fichiers séparée ?
+
+
+# Rappels
+
+* Fonctions make: [documentation Make](https://www.gnu.org/software/make/manual/html_node/Text-Functions.html)
+* Création des fichiers de dépendances avec GCC: [documentation GCC](http://gcc.gnu.org/onlinedocs/gcc-4.4.1/gcc/Preprocessor-Options.html#index-dependencies_002c-make-823)
