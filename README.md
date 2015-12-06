@@ -1,5 +1,5 @@
 # Workshop Makefile
-## Le 23/11/2015 par @iTitou
+## Première présentation le 07/12/2015 par iTitou
 
-http://urlab.be/make
+[http://urlab.be/make](https://urlab.be/events/6)
 
