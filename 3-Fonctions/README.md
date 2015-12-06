@@ -3,6 +3,7 @@
 ## Exercice 1
 
 * Écrire un Makefile pour creer l'exécutable `main`.
+    * **Bonus**: Les sources sont dans le répertoire `src`; on voudrait obtenir l'exécutable `main` dans le répertoire `3-Fonctions` tout en gardant les fichiers intermédiaires dans un sous-répertoire `build`
 * Exécuter main
 
 ## Exercice 2
