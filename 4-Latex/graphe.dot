@@ -1,0 +1,4 @@
+digraph mon_graphe {
+   a -> b -> c;
+   a -> c [label="court"];
+}
