@@ -25,6 +25,13 @@ En fait, il est aussi possible de compiler en une seule fois, en utilisant
 * Modifier un des fichiers `.c` (rajouter une ligne vide par exemple) et recompiler. Qu'observe-t-on comme avantage dans la compilation des fichiers séparée ?
 
 
+## Exercice 4
+
+En y regardant bien, les fichiers dans `src/` sont très similaires. On pourrait donc les générer automatiquement à partir du Makefile.
+
+ * Supprimer toutes les lettres de src/
+ * Modifier le Makefile pour qu'il génère ces fichiers
+
 # Rappels
 
 * Fonctions make: [documentation Make](https://www.gnu.org/software/make/manual/html_node/Text-Functions.html)
