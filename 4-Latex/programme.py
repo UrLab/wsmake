@@ -1,17 +1,17 @@
 from __future__ import print_function
 
 
-def rule(target, *deps):
-    quoted = lambda text: '"' + text + '"'
-    for dep in deps:
-        print("   ", quoted(dep), "->", quoted(target), ';')
+def r(a, *b):
+    q = lambda t: '"' + t + '"'
+    for d in b:
+        print("   ", q(d), "->", q(a), ';')
 
 
 if __name__ == "__main__":
     print("digraph make {")
-    rule("main.c", "stdio.h", "fonctions.h")
-    rule("fonctions.c", "math.h", "fonctions.h")
+    r("main.c", "stdio.h", "fonctions.h")
+    r("fonctions.c", "math.h", "fonctions.h")
     for obj in ['main', 'fonctions']:
-        rule(obj+".o", obj+".c")
-    rule('main', 'main.o', 'fonctions.o')
+        r(obj+".o", obj+".c")
+    r('main', 'main.o', 'fonctions.o')
     print("}")
