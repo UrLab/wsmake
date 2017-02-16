@@ -27,7 +27,7 @@ En fait, il est aussi possible de compiler en une seule fois, en utilisant
 
 ## Exercice 4
 
-En y regardant bien, les fichiers dans `src/` sont très similaires. On pourrait donc les générer automatiquement à partir du Makefile.
+En y regardant bien, une grande partie des fichiers dans `src/` sont très similaires (sauf main.c et les headers). On pourrait donc les générer automatiquement à partir du Makefile.
 
  * Supprimer toutes les lettres de src/
  * Modifier le Makefile pour qu'il génère ces fichiers
